@@ -2,7 +2,7 @@
 
 input_cnt = int(input())
 
-permutation_cnt_lst = [0]*1000001
+permutation_cnt_lst = [0]*(input_cnt+1)
 permutation_cnt_lst[1] = 1
 permutation_cnt_lst[2] = 2
 for idx in range(input_cnt+1) :
